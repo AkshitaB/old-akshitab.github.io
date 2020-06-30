@@ -1,0 +1,24 @@
+# This config file is meant for settings that affect your entire site, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# `jekyll serve`. If you change this file, please restart the server process.
+
+# Site Settings
+title                    : Akshita Bhagia
+position                 : MS in Computer Science, UMass Amherst
+baseurl                  : ""
+url                      : "https://akshitab.github.io"
+encoding                 : "utf-8"
+
+
+# Media links
+github                   : akshitab
+linkedin                 : akshita-bhagia
+goodreads                : https://www.goodreads.com/user/show/20774648-akshita-bhagia
+
+wordpress                : https://readwriteloveblog.wordpress.com
+
+
+# Images
+favicon                  : 'images/favicon.ico'
+profile                  : 'images/profile1.jpeg'

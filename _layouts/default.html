@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>{{ site.title }}</title>
+        <meta charset="{{ site.encoding }}" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <meta name="description" content=" {{ site.name }}" />
+        <link rel="shortcut icon" href="{{ site.favicon }}">
+        <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/maroon.css" />
+    </head>
+    <body class="is-preload">
+        <div id="wrapper">
+            <div id="main">
+                <div class="inner">
+
+                    {% include header.html %}
+
+                    {{ content  }}
+
+                    {% include footer.html %}
+
+                </div>
+            </div>
+        </div>
+
+        <script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>
+        <script src="{{ site.baseurl }}/assets/js/browser.min.js"></script>
+        <script src="{{ site.baseurl }}/assets/js/breakpoints.min.js"></script>
+        <script src="{{ site.baseurl }}/assets/js/util.js"></script>
+        <script src="{{ site.baseurl }}/assets/js/main.js"></script>
+
+    </body>
+</html>
