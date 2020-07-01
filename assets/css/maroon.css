@@ -2053,7 +2053,6 @@ input, select, textarea {
 	}
 
 		.image img {
-			/*border-radius: 0.375em;*/
 			border-radius: 5%;
 			display: block;
 		}
@@ -2997,7 +2996,7 @@ input, select, textarea {
 		}
 
 			#main > .inner > section {
-				padding: 6em 0 4em 0 ;
+				/*padding: 6em 0 4em 0 ;*/
 				border-top: solid 2px rgba(210, 215, 217, 0.75);
 			}
 
@@ -3012,7 +3011,7 @@ input, select, textarea {
 			}
 
 				#main > .inner > section {
-					padding: 5em 0 3em 0 ;
+					/*padding: 5em 0 3em 0 ;*/
 				}
 
 		}
@@ -3024,7 +3023,7 @@ input, select, textarea {
 			}
 
 				#main > .inner > section {
-					padding: 4em 0 2em 0 ;
+					/*padding: 4em 0 2em 0 ;*/
 				}
 
 		}
@@ -3036,7 +3035,7 @@ input, select, textarea {
 			}
 
 				#main > .inner > section {
-					padding: 3em 0 1em 0 ;
+					/*padding: 3em 0 1em 0 ;*/
 				}
 
 		}
@@ -3355,7 +3354,7 @@ input, select, textarea {
 /* Banner */
 
 	#banner {
-		padding: 6em 0 4em 0 ;
+		/*padding: 6em 0 4em 0 ;*/
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -3367,6 +3366,7 @@ input, select, textarea {
 		}
 
 		#banner .content {
+			padding-top: 1em;
 			-moz-flex-grow: 1;
 			-webkit-flex-grow: 1;
 			-ms-flex-grow: 1;
@@ -3379,31 +3379,34 @@ input, select, textarea {
 		}
 
 		#banner .image {
-			-moz-flex-grow: 0;
-			-webkit-flex-grow: 0;
-			-ms-flex-grow: 0;
-			flex-grow: 0;
-			-moz-flex-shrink: 0;
-			-webkit-flex-shrink: 0;
-			-ms-flex-shrink: 0;
-			flex-shrink: 0;
-			display: block;
-			margin: 0 0 2em 4em;
-			width: 30%;
-		}
+            border-radius: 5%;
+            -moz-flex-grow: 0;
+            -webkit-flex-grow: 0;
+            -ms-flex-grow: 0;
+            flex-grow: 0;
+            -moz-flex-shrink: 0;
+            -webkit-flex-shrink: 0;
+            -ms-flex-shrink: 0;
+            flex-shrink: 0;
+            display: block;
+            margin: 0 0 2em 4em;
+            width: 30%;
+        }
 
-			#banner .image img {
-				height: 100%;
-				-moz-object-fit: cover;
-				-webkit-object-fit: cover;
-				-ms-object-fit: cover;
-				object-fit: cover;
-				-moz-object-position: center;
-				-webkit-object-position: center;
-				-ms-object-position: center;
-				object-position: center;
-				width: 100%;
-			}
+	    #banner .image img {
+
+	        border-radius: 5%;
+	        /*height: 100%;*/
+	        -moz-object-fit: contain;
+	        -webkit-object-fit: contain;
+	        -ms-object-fit: contain;
+	        object-fit: contain;
+	        -moz-object-position: center;
+	        -webkit-object-position: center;
+	        -ms-object-position: center;
+	        object-position: center;
+	        width: 100%;
+	    }
 
 		@media screen and (orientation: portrait) {
 
