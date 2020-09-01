@@ -15,11 +15,18 @@ profile:
 news: false
 social: false
 resume: example_pdf
+
+organizations:
+  allennlp: https://allennlp.org
+  allennlp_platform: https://github.com/allenai/allennlp
+  infocusp: https://infocusp.in
 ---
 
-I am a Research Engineer on the AllenNLP team, involved in R&D for natural language processing (NLP). In particular, I work on the open-source AllenNLP platform. I am also keen to explore NLP research for digital humanities. During my Master's at UMass Amherst, I worked with Prof. Mohit Iyyer on interpreting what neural models learn about stylistic content in fictional texts, and with Prof. Eric Poehler from UMass Classics department to automate dataset construction and build an interface to explore art and architecture of Pompeii (ancient Roman city). I also collaborated with Scripps Research to improve the quality of crowd-sourced annotations in biomedical text using graphical models, for better named entity recognition.
+I am a Research Engineer on the [AllenNLP]({{page.organizations.allennlp}}) team, involved in R&D for natural language processing (NLP). In particular, I work on the open-source [AllenNLP platform]({{page.organizations.allennlp_platform}}). I am also keen to explore NLP research for digital humanities. 
 
-Previously, I have worked at Cerebellum Capital (Summer 2019), and at InFoCusp (2015-2018), where I worked on building a data science platform.
+During my Master's at UMass Amherst, I worked with Prof. Mohit Iyyer on interpreting what neural models learn about stylistic content in fictional text, and with Prof. Eric Poehler from UMass Classics department to automate dataset construction and build an interface to explore art and architecture of Pompeii (ancient Roman city). I also collaborated with Scripps Research to improve the quality of crowd-sourced annotations in biomedical text using graphical models, for better named entity recognition.
 
-In my spare time, I enjoy reading novels, [writing]({{ site.wordpress_url }}) (especially poetry), and practising Yoga.
+Previously, I have worked at Cerebellum Capital (Summer 2019), and at [InFoCusp]({{page.organizations.infocusp}}) (2015-2018), where I worked on building a data science platform.
+
+In my spare time, I enjoy [reading]({{site.goodreads_url}}) novels, [writing]({{ site.wordpress_url }}) (especially poetry), and practising Yoga.
 
