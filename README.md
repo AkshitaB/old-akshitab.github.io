@@ -1,1 +1,1 @@
-[Personal website](https://akshitab.github.io)
+[Personal Website](https://akshitab.github.io)
